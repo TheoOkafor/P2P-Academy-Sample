@@ -1,27 +1,25 @@
-import './App.css';
+import Navigation from './components/Navigation';
+import Hero from './components/Hero';
+import IntroSection from './components/IntroSection';
+import CoursesSection from './components/CoursesSection';
+import EnterpriseSection from './components/EnterpriseSection';
+import AboutSection from './components/AboutSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+    <div className="min-h-screen bg-white">
+      <Navigation />
+      <main>
+        <Hero />
+        <IntroSection />
+        <CoursesSection />
+        <EnterpriseSection />
+        <TestimonialsSection />
+        <AboutSection />
+      </main>
+      <Footer />
     </div>
   );
 }
