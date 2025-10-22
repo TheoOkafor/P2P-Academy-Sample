@@ -85,7 +85,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
               <img 
-                src="/logo192.png" 
+                src="https://www.p2p-academy.com/wp-content/uploads/2018/05/cropped-logo-318x216-192x192.png" 
                 alt="P2P Academy" 
                 className="h-10 w-10 brightness-0 invert"
               />

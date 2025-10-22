@@ -18,7 +18,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/logo192.png" 
+              src="https://www.p2p-academy.com/wp-content/uploads/2018/05/cropped-logo-318x216-192x192.png" 
               alt="P2P Academy" 
               className="w-10"
             />
